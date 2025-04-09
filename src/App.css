@@ -17,6 +17,12 @@
 
 h1,h3{
   background-color: #EDEFEA;
-  color: #222222;
+  color: black;
   padding: 10px;
+  box-shadow: 
+  -5px 0 0 white,
+  0 -5px 0 white,
+  5px 0 0 darkgrey,
+  0 5px 0 darkgrey
+  ;
 }
