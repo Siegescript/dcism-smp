@@ -10,10 +10,10 @@ function App() {
           <img src={logo} className="logo" alt="DCISM logo" />
         </a>
       </div>
-      <h1>COMING SOON...</h1>
+      <h1>DCISM-SMP</h1>
       <div>
         <h3>
-          The unoffical USC DCISM minecraft SMP server!
+          Welcome to the unoffical USC DCISM minecraft SMP server!
         </h3>
       </div>
     </>
