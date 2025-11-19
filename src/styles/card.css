@@ -1,21 +1,29 @@
 .card {
   background-color: #EDEFEA;
   color: black;
-  padding: 20px;
-  margin: 20px auto;
-  width: 80%;
+  padding: 16px;
+  margin: 0 auto;
+  width: min(90%, 680px);
+  box-sizing: border-box;
 
   box-shadow:
     -5px 0 0 white,
     0 -5px 0 white,
     5px 0 0 darkgrey,
     0 5px 0 darkgrey;
+
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
 }
 
 .card-title {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   font-weight: bold;
+  text-align: center;
 }
 
 .card-content {

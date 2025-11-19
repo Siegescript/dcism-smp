@@ -1,15 +1,15 @@
 import '../styles/card.css'
 
-function Card(props) {
-
-
+function Card({ title, children }) {
   return (
-    <div className="card">
-      {props.title && <h2 className="card-title">{props.title}</h2>}
-      <div className="card-content">
-        {children}
-      </div>
-    </div>
+    <section className="card" aria-labelledby={title ? `card-${title}` : undefined}>
+      {title && (
+        <h2 id={`card-${title}`} className="card-title">
+          {title}
+        </h2>
+      )}
+      <div className="card-content">{children}</div>
+    </section>
   )
 }
 
