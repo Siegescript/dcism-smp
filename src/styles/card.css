@@ -1,0 +1,23 @@
+.card {
+  background-color: #EDEFEA;
+  color: black;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+
+  box-shadow:
+    -5px 0 0 white,
+    0 -5px 0 white,
+    5px 0 0 darkgrey,
+    0 5px 0 darkgrey;
+}
+
+.card-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.card-content {
+  text-align: center;
+}
