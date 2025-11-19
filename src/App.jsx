@@ -1,5 +1,7 @@
 import logo from './assets/logo.jpg'
-import './App.css'
+import './styles/App.css'
+import Card from './components/Card'
+import minecraft_title from './assets/minecraft_title.png'
 
 function App() {
 
@@ -10,12 +12,17 @@ function App() {
           <img src={logo} className="logo" alt="DCISM logo" />
         </a>
       </div>
-      <h1>DCISM-SMP</h1>
-      <div>
-        <h3>
-          Welcome to the unoffical USC DCISM minecraft SMP server!
-        </h3>
-      </div>
+
+      <img src={minecraft_title} className="title" alt="DCISMP" />
+
+      <Card>
+        <p>Welcome to the unofficial USC DCISM Minecraft SMP server!</p>
+      </Card>
+
+      <Card>
+        <p>Status: <strong>Offline</strong></p>
+        <p>Address: <strong>minecaft.dcism.org:20096</strong></p>
+      </Card>
     </>
   )
 }
